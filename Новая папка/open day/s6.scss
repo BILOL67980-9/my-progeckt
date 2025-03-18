@@ -1,0 +1,296 @@
+*{
+    margin: 0;
+}
+.div{
+    display: flex;
+    position: sticky;
+    top: 0;
+    background-color:white;
+    border-bottom: 1px solid gray;
+   
+    width: 100%;
+    height: 80px;
+    flex-wrap: wrap;    
+    align-content:center;
+    justify-content: space-around;
+    .text{
+        margin-top: 20px;
+        width: 500px;
+        display: flex;
+        justify-content: space-evenly;
+    a{
+        color: black;
+    }
+    }
+    .button{
+        margin-top: 0px;
+        margin-right: 50px;
+        .i1{
+            background-color: whitesmoke;
+            height: 30px;
+            width: 230px;
+            margin-right: 20px;
+            border: none;
+            padding-left: 15px;
+        }
+    img{
+        position: relative;
+        top: 13px;
+    }
+    }
+.q{
+    display: none;
+}
+.img1{
+    display: none;
+}
+}
+.div1{
+    margin-top: 100px;
+   
+    p{
+        font-family: sans-serif;
+    }
+    .h1{
+        margin-top: 90px;
+        font-family: sans-serif;
+        font-size: 50px;
+    }
+    .q{
+        margin-left: 300px;
+        display: flex;
+    }
+    .h{
+        width: 370px;
+    }
+    
+}
+.E{
+    font-family: sans-serif;
+    display: flex;
+}
+.diq1{
+    box-shadow: 13px 13px 13px black;
+    width: 200px;
+    height: 200px;
+    text-align: center;
+    margin-left: 300px;
+    margin-top: 40px;
+    border: 1px solid  gray;
+    border-radius: 10px;
+    img{
+        margin-top: 20px;
+    }
+    p{
+        margin-top: 0px;
+    }
+    h1{
+        margin-top: 0px;
+    }
+}
+.diq2{
+    @extend .diq1;
+    margin-left: 50px;
+}
+.diq3{
+    @extend .diq1;
+    margin-left: 50px;
+    background: #DB4444;
+   color: white ;
+   border: 1px solid #DB4444;
+}
+.df1{
+    margin-top: 40px;
+    width: 370px;
+    height: 550px;
+    margin-left: 200px;
+    p{
+        margin-top: 0px;
+    }
+    h1{
+        
+        margin-top: 20px;
+        font-weight: 100;
+    }
+}
+.df2{
+    @extend .df1;
+    display: block;
+    margin-left: 50px;
+}
+.ik{
+   margin-left: 750px;
+   margin-top: 40px;
+}
+.div4{
+    font-family: sans-serif;
+    width: 100%;
+    margin-top: 200px;
+    height: 250px;
+    background-color: black;
+    color: white;
+    display: flex;
+    .k4{
+        margin-left: 100px;
+        padding-top: 50px;
+        line-height: 30px;
+    }
+    form {
+        width: 160px;
+        display: flex;
+        margin-top: 10px;
+        flex-wrap:wrap;
+        align-content: center;
+        border: 2px solid white;
+    img{
+        width: 20px;
+        margin-top: 5px;
+        margin-left: 5px;
+        height: 20px;
+    }
+    }
+    input{
+        font-family: sans-serif;
+        font-size: 13px;
+        color: white;
+        padding: 10px;
+        width: 100px;
+        border: none;
+    background-color: black;
+    }
+}
+.div3{
+    width: 100%;
+    height: 40px;
+    border-top:1px solid rgb(49, 48, 48);
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    background-color: black;
+    color: rgb(49, 48, 48);
+}
+.p1{
+    display: none;
+}
+.l4{
+    display: flex;
+}
+.yu{
+    display: flex;
+    margin-top: 100px;
+    margin-left: 280px;
+}
+.lo1{
+    margin-left: 50px;
+    width: 300px;
+    height: 150px;
+    text-align: center;
+}
+
+@media (max-width:389px){
+    *{
+        margin-right: 0px;
+        padding: 0px;
+      }
+
+      .div{
+         width: 100%;
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        align-content: center;
+        .text{
+            display: none;
+        }  
+        .button{
+            display: none;
+        }
+        .logotyp{
+            display: none;
+        }
+        .img1{
+            display: inline;
+        }
+        .q{
+            margin-left: 20px;
+            font-size: 10px;
+           flex-wrap: wrap;
+    
+            display: flex;
+            align-content: center;
+        }
+        .img1{
+            display: inline;
+            margin-right: 20px;
+        }
+        .img{
+            margin-right: 5px;
+    
+        }
+    }
+    .div1{
+        margin-left: 0px;
+    
+      .q{
+        margin-left: 0px;
+        display: block;
+      .h3{
+        img{
+            width: 100%;
+        }
+      }  
+    }
+    }
+    .E{
+        width: 100%;
+        display: block;
+    }
+    .diq1{
+        margin-left: 60px;
+    }
+    .df1{
+        margin-top: 40px;
+        margin-left: 0px;
+    }
+    .df2{
+        display: none;
+    }
+    .ik{
+        margin-left: 130px;
+    }
+    
+.yu{
+    font-family: sans-serif;
+    display: block;
+    margin-top: 100px;
+    margin-left: 0px;
+}
+.lo1{
+    margin-left: 0px;
+    font-family: sans-serif;
+    width: 300px;
+    height: 150px;
+    text-align: center;
+}
+.div4{
+    display: block;
+    height: 700px;
+.k4{
+    margin-left: 20px;
+}
+}
+.div3{
+    height: 60px;
+}
+.p1{
+    display: inline;
+}
+.p2{
+    display: none;
+}
+.l4{
+    display: flex;
+}
+
+}

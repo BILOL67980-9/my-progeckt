@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+        }
+        .obshi{
+           display: grid;
+          grid-template: repeat(4,200px)/repeat(3,400px);
+          border-collapse: collapse;
+         
+        }
+        .obshi h1{
+           color: white;
+           display: flex;
+           flex-wrap: wrap;
+           align-content: center;
+           justify-content: center;
+           
+            /* width: 200px;
+            height: 200px; */
+            border: 3px solid white;
+            /* border-collapse: collapse; */
+            animation: a 10s initial;
+            
+        }
+        body{
+            background-color: black;
+            animation: a 20s infinite;
+        }
+        @keyframes a{
+            0%{
+            
+            }
+            25%{
+                background-color: brown;
+            }
+            50%{
+                background-image: url(/img/т.jfif);
+                background-size: cover;
+                background-position: center;
+            }
+            75%{
+                background-color: rgb(2, 47, 34);
+            }
+            100%{
+                background-color: rgb(73, 82, 137);
+            }
+        }
+        .w1{
+           grid-column: 1/4; 
+        }
+        .w2{
+            grid-column: 1/2;
+            grid-row: 2/5;
+        }
+        .w6{
+            grid-row: 4/4; 
+        grid-column: 2/4;
+  
+        }
+        .w3{
+            grid-column: 2/4;
+        }
+    </style>
+</head>
+<body>
+    <div class="obshi">
+    <h1 class="w1">1</h1>
+    <h1 class="w2">2</h1>
+    <h1 class="w3">3</h1>
+    <h1 class="w4">4</h1>
+    <h1 class="w5">5</h1>
+    <h1 class="w6">6</h1>
+    <script src="w.js"></script>
+    </div>
+</body>
+</html>
